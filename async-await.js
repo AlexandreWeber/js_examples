@@ -32,5 +32,10 @@ async function getAddresses() {
 Promise.all([getCepData("89204041"),
              getCepData("89218100"), 
              getCepData("89209520")]).then((values) => {
-    console.log(values)
+    opaAddress   = values[0];
+    totvsAddress = values[1];
+    homeAddress  = values[2];
+
+    console.log(`Eu moro na ${homeAddress.logradouro}, trabalho na ${totvsAddress.logradouro} e bebo cerveja na ${opaAddress.logradouro}`)
+
 });
