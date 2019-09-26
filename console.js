@@ -22,7 +22,7 @@ let i = 0;
 while (i < 1000000) { 
     i ++ 
 };
-// Exibe o tempo de execução desde a iniciação do contador
+// Exibe o tempo de execução desde a inicialização do contador
 console.timeEnd('loop1');
 
 

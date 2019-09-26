@@ -7,7 +7,7 @@ function showCustomer ({name, lastName, age}) {
 }
 
 function showCustomer (customer) {
-    // 'Explode' as propriedades do objeto enviado e os transforma em constanes
+    // 'Explode' as propriedades do objeto enviado e os transforma em constantes
     const {name, lastName, age} = customer;
     return `O cliente ${name} ${lastName} tem ${age} anos`;
 }

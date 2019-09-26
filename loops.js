@@ -22,9 +22,8 @@ const allGreaterThan100 = orders.filter(({value}) => value > 100);
 // Retornar se todos os pedidos são maiores que 150
 const everyValueGreaterThan150 = orders.every(({value}) => value > 150);
 
-// Retornar se todos algum pedido é maior que 100
+// Retornar se algum pedido é maior que 100
 const someValueGreaterThan100 = orders.some(({value}) => value > 100);
-
 
 // Realiza a ordernação pelo nome de forma crescente
 customers.sort((a, b) => {
