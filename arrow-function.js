@@ -1,15 +1,15 @@
 // Como era
-writeName = function (name) {
+const writeName = function (name) {
     return `O seu nome é ${name}`;
 }
 
 // Como fica
-writeName2 = ((name) => { 
+const writeName2 = ((name) => { 
     return `O seu nome é ${name}`;
 });
 
 // Versão reduzida
-writeName3 = (name) => `O seu nome é ${name}`;
+const writeName3 = (name) => `O seu nome é ${name}`;
 
 
 // Atenção ao this
